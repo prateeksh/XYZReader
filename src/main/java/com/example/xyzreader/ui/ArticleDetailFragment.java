@@ -117,7 +117,7 @@ public class ArticleDetailFragment extends Fragment implements
             }
         });*/
 
-        ((CollapsingToolbarLayout)mRootView.findViewById(R.id.collapsing_toolbar)).setTitle("Tite");
+        ((CollapsingToolbarLayout)mRootView.findViewById(R.id.collapsing_toolbar)).setTitle("Document Title");
         mappBar = (AppBarLayout) mRootView.findViewById(R.id.appbarlayout);
         scrollView = (NestedScrollView) mRootView.findViewById(R.id.nestedscroll);
 
@@ -215,8 +215,8 @@ public class ArticleDetailFragment extends Fragment implements
                                 Palette p = Palette.generate(bitmap, 12);
                                 mMutedColor = p.getDarkMutedColor(0xFF333333);
                                 mPhotoView.setImageBitmap(imageContainer.getBitmap());
-                                mRootView.findViewById(R.id.meta_bar)
-                                        .setBackgroundColor(mMutedColor);
+                                /*mRootView.findViewById(R.id.meta_bar)
+                                        .setBackgroundColor(mMutedColor);*/
                                 updateStatusBar();
                             }
                         }

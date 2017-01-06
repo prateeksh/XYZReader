@@ -58,16 +58,4 @@
             android:scrollbarStyle="outsideOverlay" />
     </android.support.v4.widget.SwipeRefreshLayout>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:fabSize="normal"
-        app:elevation="@dimen/fab_elevation"
-        app:srcCompat="@android:drawable/arrow_up_float"
-
-        app:pressedTranslationZ="@dimen/fab_press_translation_z"/>
-
 </android.support.design.widget.CoordinatorLayout>

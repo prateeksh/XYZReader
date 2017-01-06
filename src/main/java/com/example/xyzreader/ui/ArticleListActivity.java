@@ -60,9 +60,9 @@ public class ArticleListActivity extends ActionBarActivity implements
             refresh();
         }
 
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+       /* if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
-        }
+        }*/
     }
 
     private void refresh() {
@@ -142,7 +142,11 @@ public class ArticleListActivity extends ActionBarActivity implements
                 public void onClick(View view) {
                     if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                         startActivity(new Intent(Intent.ACTION_VIEW,
-                                ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()))), bundle);
+                                ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()))),
+                                ActivityOptions.makeSceneTransitionAnimation(
+                                        ArticleListActivity.this,
+                                        vh.thumbnailView,
+                                        vh.thumbnailView.getTransitionName()).toBundle());
                     }
                 }
             });

@@ -5,7 +5,7 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="1910246720136296"
+    timestamp="2087847607419259"
     token="-8544157750158962990"
     verifier="COMPATIBLE" >
 
@@ -14,7 +14,7 @@
         duration="0" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="302" />
     <task
         name="instant-run-transform"
         duration="0" />
@@ -25,36 +25,33 @@
     <artifact
         location="C:\Users\Prateek\AndroidStudioProjects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
         type="RESOURCES" />
+    <artifact
+        location="C:\Users\Prateek\AndroidStudioProjects\xyzreader\XYZReader\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="1904066337527703"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="2086985777283160"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="C:\Users\Prateek\AndroidStudioProjects\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="1909422909380740"
-        verifier="R_CLASS_CHANGE" >
+        timestamp="2087511812401777"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Prateek\AndroidStudioProjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
             type="DEX" />
-        <artifact
-            location="C:\Users\Prateek\AndroidStudioProjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Prateek\AndroidStudioProjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Prateek\AndroidStudioProjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
     </build>
     <build
-        timestamp="1910246720136296"
+        timestamp="2087847607419259"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\Prateek\AndroidStudioProjects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
+        <artifact
+            location="C:\Users\Prateek\AndroidStudioProjects\xyzreader\XYZReader\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
