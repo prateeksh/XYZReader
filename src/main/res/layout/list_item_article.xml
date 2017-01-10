@@ -2,12 +2,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="@dimen/textPadding"
-    android:layout_marginLeft="@dimen/textPadding"
-    android:layout_marginRight="@dimen/textPadding"
+    android:layout_marginBottom="@dimen/cardPadding"
+    android:layout_marginLeft="@dimen/cardPadding"
+    android:layout_marginRight="@dimen/cardPadding"
     android:layout_marginTop="@dimen/textPadding"
     android:clickable="true"
     android:focusable="true"
+    android:background="@color/cardview_light_background"
     android:foreground="?selectableItemBackground">
 
     <FrameLayout
@@ -22,7 +23,7 @@
             android:background="@color/photo_placeholder"
             android:contentDescription="@string/ImageDiscription"
             android:transitionName="@string/simpleTransition"
-            android:scaleType="fitXY"/>
+            />
 
         <View
             android:layout_width="match_parent"
@@ -43,6 +44,7 @@
                 android:layout_gravity="bottom"
                 android:ellipsize="end"
                 android:maxLines="4"
+                android:textStyle="bold"
                 android:paddingBottom="@dimen/textPadding"
                 android:paddingLeft="@dimen/textPadding"
                 android:paddingRight="@dimen/textPadding"
@@ -60,7 +62,7 @@
                 android:paddingLeft="@dimen/textPadding"
                 android:paddingRight="@dimen/textPadding"
                 android:singleLine="true"
-                android:textColor="#FFFFFF" />
+                android:textColor="@color/text" />
         </LinearLayout>
     </FrameLayout>
 
