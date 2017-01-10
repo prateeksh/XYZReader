@@ -118,7 +118,9 @@
         android:contentDescription="@string/action_share"
         android:elevation="@dimen/fab_elevation"
         android:src="@drawable/ic_share"
-        android:stateListAnimator="@anim/fab_state_list_anim" />
+        android:stateListAnimator="@anim/fab_state_list_anim"
+        android:translationZ="@dimen/fab_press_translation_z"
+        />
 
 </android.support.design.widget.CoordinatorLayout>
 

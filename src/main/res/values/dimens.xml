@@ -13,5 +13,6 @@
 
     <dimen name="textPadding">6dp</dimen>
     <dimen name="cardPadding">4dp</dimen>
+    <dimen name="appBar">4dp</dimen>
 
 </resources>
