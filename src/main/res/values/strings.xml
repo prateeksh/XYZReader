@@ -11,4 +11,5 @@
 
     <string name="simpleTransition">rootTransition</string>
     <string name="ImageDiscription">Image Display</string>
+    <string name="fab_behavior">com.example.xyzreader.ui.FloatingActionButtonBehavoir</string>
 </resources>

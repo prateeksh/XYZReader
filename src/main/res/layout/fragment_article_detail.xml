@@ -8,7 +8,7 @@
         android:id="@+id/appbarlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:elevation="5dp">
+        android:elevation="@dimen/appBar">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar"
@@ -119,7 +119,7 @@
         android:elevation="@dimen/fab_elevation"
         android:src="@drawable/ic_share"
         android:stateListAnimator="@anim/fab_state_list_anim"
-        android:translationZ="@dimen/fab_press_translation_z"
+        app:pressedTranslationZ="@dimen/fab_press_elevation"
         />
 
 </android.support.design.widget.CoordinatorLayout>

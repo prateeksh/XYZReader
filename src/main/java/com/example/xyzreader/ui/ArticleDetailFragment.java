@@ -109,6 +109,7 @@ public class ArticleDetailFragment extends Fragment implements
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
 
         ((CollapsingToolbarLayout)mRootView.findViewById(R.id.collapsing_toolbar)).setTitle("Document Title");
+
         mappBar = (AppBarLayout) mRootView.findViewById(R.id.appbarlayout);
         scrollView = (NestedScrollView) mRootView.findViewById(R.id.nestedscroll);
 
