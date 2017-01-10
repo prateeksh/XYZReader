@@ -48,8 +48,6 @@ public class ArticleListActivity extends ActionBarActivity implements
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
-
-        final View toolbarContainerView = findViewById(R.id.toolbar_container);
         ((CollapsingToolbarLayout)findViewById(R.id.collapsing_toolbar)).setTitle("");
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
 
@@ -59,10 +57,6 @@ public class ArticleListActivity extends ActionBarActivity implements
         if (savedInstanceState == null) {
             refresh();
         }
-
-       /* if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
-        }*/
     }
 
     private void refresh() {
